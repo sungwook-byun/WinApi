@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02. Main">
+      <UniqueIdentifier>{77c407f9-6ee3-4dc3-a13d-01e68b122a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. 리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="03. Game">
+      <UniqueIdentifier>{a636f805-e515-48cc-ad34-ef952900644d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Game\01. Header">
+      <UniqueIdentifier>{1b49bd4b-f61e-427f-9a2f-7a6d799f792b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Game\02. Engine">
+      <UniqueIdentifier>{7d497ccc-e2cc-4612-ac6d-96ccfacb86f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Game\03. Manager">
+      <UniqueIdentifier>{16f870f7-0599-48b8-8d4d-c8817160748e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Game\04. Level">
+      <UniqueIdentifier>{e9c418e1-7eb7-4383-b0e5-9f3d3bb90912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Game\05. Object">
+      <UniqueIdentifier>{f8d9e644-b88f-49c5-ae14-f18d16a78744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Game\06. Component">
+      <UniqueIdentifier>{b17a1fbb-75ef-4431-8753-d003acb1c8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Game\07. Asset">
+      <UniqueIdentifier>{a6b396b5-f19c-47f1-ade0-6c5c22cc7448}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>02. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>02. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>02. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>02. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>03. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>02. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>03. Game\05. Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>01. 리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>01. 리소스 파일</Filter>
+    </Image>
+    <Image Include="GameClient.ico">
+      <Filter>01. 리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>02. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>03. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>02. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>03. Game\05. Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

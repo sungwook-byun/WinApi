@@ -1,0 +1,12 @@
+#pragma once
+
+
+class CEntity
+{
+private:	
+	UINT		m_ID;
+
+public:
+	CEntity();
+	virtual ~CEntity();
+};
